@@ -15,7 +15,7 @@ function addClass(e){
 }
 const divs = document.querySelectorAll('.box')
 divs.forEach((item) =>{
-    item.addEventListener('mouseover click', (e) => {
+    item.addEventListener('mouseover', (e) => {
         e.target.style.backgroundColor = 'black'
     })
 })
