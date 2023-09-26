@@ -1,0 +1,28 @@
+* {
+    border: 1px solid red;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: auto;
+    padding-right: auto;
+    height: 940px;
+    width: 940px;
+    
+}
+.box {
+    flex: 1 0 5.7%;
+    /* height: 35px; */
+    width: auto;
+    padding: 0px;
+    margin: 0px;
+}
+.dark {
+    background-color: black;
+}
